@@ -1,6 +1,19 @@
 /* your code here */
-.media-icons{
-	align-items: right;
+body{
+	margin: 0;
+	padding: 0;
+}
+.footer{
+	background-color: black;
+	color: white;
+	padding: 40px 0;
+	text-align: center;
+}
+.footer-container{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap:wrap;
+	margin: auto;
 }
 .fa-facebook{
 	/* display: flex; */
@@ -42,22 +55,51 @@
 	padding: 10px;
 	border-radius: 100%;
 }
-
-
-.logo_name{
+.footer-logo h2{
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+.link-boxes{
+	margin: 20px;
+}
+.link-boxes h3{
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.link-boxes ul{
+	list-style:none;
+	padding:0;
+}
+.link-boxes ul li{
+	margin: 10px 0;
+}
+.link-boxes ul li a{
 	color: white;
-	display:inline;
+	text-decoration: none;
+	opacity: 0.8;
 }
-.fa:hover{
-	opacity: 0.7;
+.media-icons{
+	margin-top: 30px;
 }
-body{
-	background-color: black;
+.media-icons a{
+	margin: 10px 0;
+	display: inline-block;
 }
-.top {
+.bottom-details{
+	background-color:#333;
+	color: #ccc;
+	padding: 15px 0;
+    margin-top: 30px;
 	display: flex;
-	justify-content:flex-end
+	justify-content: space-between;
+	align-items: center;
+	font-size: 18px;
 }
-.top span{
-	align-content: left;
+.bottom-details a{
+	color: #ccc;
+	text-decoration: none;
+}
+.footer-logo{
+	display: flex;
+	justify-content: space-between;
 }
